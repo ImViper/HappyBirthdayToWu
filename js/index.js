@@ -41,7 +41,7 @@ var S = {
       if (i !== -1) {
         S.UI.simulate(decodeURI(action).substring(i + 3));
       } else {
-        S.UI.simulate('|#countdown 3||祝|吴颖莙|15岁|生日快乐|祝宝宝|越来越漂亮|越来越年轻|万事胜意|快高长大|我们|一起|走下去|生日快乐!|#icon heart|#icon heart-empty|#icon heart');
+        S.UI.simulate('|#countdown 3||祝|吴颖莙|15岁|生日快乐|祝宝宝|越漂亮|越年轻|万事胜意|快高长大|我们|一起|走下去|生日快乐!|#icon heart|#icon heart-empty|#icon heart');
       }
 
       S.Drawing.loop(function () {
